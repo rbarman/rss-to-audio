@@ -43,8 +43,8 @@ if __name__ == "__main__":
 
 	# get command line arguments
 	parser = argparse.ArgumentParser(description='Create audio of your rss feeds')
-	parser.add_argument('--feeds',help="text file with list of feeds",required=True)
-	parser.add_argument('--filename',help="name of audio file to create",required=True)
+	parser.add_argument('feeds',help="text file with list of feeds")
+	parser.add_argument('filename',help="name of audio file to create")
 	args = parser.parse_args()
 
 	# create audio
