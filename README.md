@@ -1,6 +1,10 @@
 
 # Convert rss feeds to audio
 
+Create an audio file of news summaries from different rss feeds. Inspired from https://github.com/KPGunner/news_feed/
+
+---
+
 Can use directly in another python program or through CLI.
 
 **Python**
