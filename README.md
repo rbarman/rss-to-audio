@@ -20,11 +20,11 @@ create_audio(feeds,file_name)
 
 *args:*
 
-- *--feeds* = location of a text file that has a rss feed url on each line
-- *--filename* = name of final audio file
+- *feeds* = location of a text file that has a rss feed url on each line
+- *filename* = name of final audio file
 
 
 ```
 echo "http://www.wsj.com/xml/rss/3_7085.xml" > feeds.txt
-python rss_to_audio.py --feeds feeds.txt --filename news.mp3
+python rss_to_audio.py feeds.txt news.mp3
 ```
