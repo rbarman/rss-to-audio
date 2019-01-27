@@ -8,7 +8,7 @@ def get_summaries(feed_url):
 	parsed = fp.parse(feed_url)
 	return [news.summary for news in parsed['entries']]
 
-def create_audio(feed_urls,filename,cli=False):
+def create_audio(feed_urls,filename):
 	'''create audio file of news summaries from all feeds'''
 	
 	news_summaries = []
